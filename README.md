@@ -18,7 +18,7 @@ This repository documents my journey of becoming a full-stack web developer thro
 | Day | Project | Status |
 |-----|---------|--------|
 | 1 | Profile Card | ✅ Completed |
-| 2 | Responsive Landing Page | ⏳ Pending |
+| 2 | Responsive Landing Page | ✅ Completed |
 | 3 | Login Form | ⏳ Pending |
 | 4 | Pricing Cards | ⏳ Pending |
 | 5 | Restaurant Website | ⏳ Pending |
