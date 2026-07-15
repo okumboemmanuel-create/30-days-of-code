@@ -19,7 +19,7 @@ This repository documents my journey of becoming a full-stack web developer thro
 |-----|---------|--------|
 | 1 | Profile Card | ✅ Completed |
 | 2 | Responsive Landing Page | ✅ Completed |
-| 3 | Login Form | ⏳ Pending |
+| 3 | Modern Login Form | ✅ Completed |
 | 4 | Pricing Cards | ⏳ Pending |
 | 5 | Restaurant Website | ⏳ Pending |
 
