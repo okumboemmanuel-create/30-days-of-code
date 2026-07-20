@@ -1,0 +1,130 @@
+/* Remove default browser spacing */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Page styling */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f7fc;
+    color:#333;
+}
+
+/* Pricing section */
+.pricing{
+    width:90%;
+    max-width:1200px;
+    margin:60px auto;
+    text-align:center;
+}
+
+.pricing h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:40px;
+}
+
+/* Flexbox container */
+.pricing-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+/* Card styling */
+.card{
+    background:white;
+    width:320px;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    position:relative;
+    transition:.3s;
+}
+
+/* Hover effect */
+.card:hover{
+    transform:translateY(-10px);
+}
+
+/* Featured card */
+.featured{
+    transform:scale(1.05);
+    border:3px solid royalblue;
+}
+
+/* Badge */
+.badge{
+    position:absolute;
+    top:-15px;
+    left:50%;
+    transform:translateX(-50%);
+    background:royalblue;
+    color:white;
+    padding:8px 18px;
+    border-radius:20px;
+    font-size:14px;
+}
+
+/* Price */
+.card h3{
+    font-size:36px;
+    margin:25px 0;
+}
+
+.card span{
+    font-size:18px;
+    color:gray;
+}
+
+/* Feature list */
+.card ul{
+    list-style:none;
+    margin-bottom:30px;
+}
+
+.card li{
+    margin:15px 0;
+}
+
+/* Buttons */
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    background:royalblue;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#003ecb;
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+    .pricing-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:90%;
+    }
+
+    .featured{
+        transform:scale(1);
+    }
+
+}
