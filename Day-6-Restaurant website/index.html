@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian's Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+
+     <a href="#home" class="logo">
+       <img src="images/logo.jpeg" alt="Brian's Restaurant Logo">
+       <span>Brian's Restaurant</span>
+     </a>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#menu">Menu</a></li>
+
+            <li><a href="#prices">Prices</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+       </nav>
+    </header>
+    <section id="home" class="hero">
+
+    <h1>Welcome to Brian's Restaurant</h1>
+
+    <p>
+        We serve the best food in town. Come and enjoy our delicious meals and great atmosphere.
+    </p>
+ <div class="buttons">
+    <button>Order Now</button>
+    <button>View Menu</button>
+ </div>
+
+</section>
+<section id="about" class="about">
+
+    <div class="about-image">
+        <img src="images/hero.jpeg" alt="Restaurant Interior">
+    </div>
+
+    <div class="about-content">
+        <h2>About Us</h2>
+
+        <p>
+            Welcome to Brian's Restaurant, where passion meets flavor. We serve
+            freshly prepared meals using high-quality ingredients in a warm and
+            welcoming atmosphere.
+        </p>
+
+        <p>
+            Whether you're enjoying a family dinner, celebrating a special
+            occasion, or grabbing a quick lunch, we promise an unforgettable
+            dining experience.
+        </p>
+
+        <button>Learn More</button>
+    </div>
+
+</section>
+<section id="menu" class="menu">
+    <h2>Our Menu</h2>
+
+    <div class="menu-container">
+
+        <div class="menu-card">
+            <img src="images/pizza.jpeg" alt="Pizza">
+            <h3>Pizza</h3>
+            <p>Freshly baked with mozzarella cheese.</p>
+            <span>KSh 850</span>
+            <button>Order Now</button>
+        </div>
+
+        <div class="menu-card">
+            <img src="images/Hamburger.jpeg" alt="Burger">
+            <h3>Burger</h3>
+            <p>Juicy beef burger with fries.</p>
+            <span>KSh 650</span>
+            <button>Order Now</button>
+        </div>
+
+        <div class="menu-card">
+            <img src="images/pasta.jpeg" alt="Pasta">
+            <h3>Pasta</h3>
+            <p>Creamy Italian pasta with herbs.</p>
+            <span>KSh 750</span>
+            <button>Order Now</button>
+        </div>
+        <div class="menu-card">
+            <img src="images/desrt.jpeg" alt="Desert">
+            <h3>Desert</h3>
+            <p>Delicious dessert to end your meal.</p>
+            <span>KSh 450</span>
+            <button>Order Now</button>
+        </div>
+        <div class="menu-card">
+            <img src="images/chicken.jpeg" alt="Chicken">
+            <h3>Chicken</h3>
+            <p>Grilled chicken with herbs and spices.</p>
+            <span>KSh 850</span>
+            <button>Order Now</button>
+        </div>
+        <div class="menu-card">
+            <img src="images/Salad.jpeg" alt="Salad">
+            <h3>Salad</h3>
+            <p>Fresh salad with vegetables and dressing.</p>
+            <span>KSh 550</span>
+            <button>Order Now</button>
+        </div>
+
+        <!-- Continue with three more cards -->
+
+    </div>
+</section>
+<section id="contact" class="contact">
+
+    <h2>Reserve a Table</h2>
+
+    <p class="contact-intro">
+        We'd love to serve you! Fill in the form below and we'll confirm your reservation.
+    </p>
+
+    <div class="contact-container">
+     <form id="reservationForm">
+
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your full name">
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="e.g. +254712345678">
+
+        <label for="guests">Number of Guests</label>
+        <input type="number" id="guests" min="1" placeholder="1">
+
+        <label for="date">Reservation Date</label>
+        <input type="date" id="date">
+
+        <label for="message">Special Requests</label>
+        <textarea
+            id="message"
+            rows="5"
+            placeholder="Any allergies or special requests?"></textarea>
+
+        <button type="submit">Reserve Now</button>
+
+     </form>
+    <div class="contact-details">
+
+        <h3>Visit Us</h3>
+
+        <p>📍 Nairobi, Kenya</p>
+
+        <p>📞 +254 102 832 502</p>
+
+        <p>✉ reservations@briansrestaurant.com</p>
+
+        <p>🕒 Mon - Sun : 9:00 AM - 10:00 PM</p>
+
+    </div>
+   </div> 
+
+</section>
+<button id="topBtn">⬆</button>
+<footer>
+    <p>&copy; 2024 Brian's Restaurant. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+
+</html>
